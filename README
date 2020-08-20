@@ -1,0 +1,27 @@
+MIT6.824 分布式系统课程学习
+【1】环境搭建
+
+操作步骤：
+wget -qO- https://dl.google.com/go/go1.13.6.linux-amd64.tar.gz | sudo tar xz -C /usr/local
+git clone git://g.csail.mit.edu/6.824-golabs-2020 6.824
+
+备注：这里有个问题，为什么必需是在/root下？
+cd ~/6.824
+find . -name *.sh -exec chmod +x {} \;
+cd src/main
+go build -buildmode=plugin ../mrapps/wc.go
+rm mr-out*
+go run mrsequential.go wc.so pg*.txt
+more mr-out-0
+
+备注：go环境
+source ~/.bashrc
+export GOROOT=/usr/local/go
+export GOPATH=/root
+export GOBIN=$GOPATH/bin
+export GOPROXY=https://goproxy.io
+export PATH=$PATH:$GOROOT:$GOROOT/bin:$GOPATH:$GOBIN
+
+【2】实验
+{2.1}Lab 1:MapReduce
+https://pdos.csail.mit.edu/6.824/labs/lab-mr.html

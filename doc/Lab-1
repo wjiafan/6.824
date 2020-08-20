@@ -1,0 +1,49 @@
+6.824 Lab 1: MapReduce
+
+<1>参考资料
+
+【1】MIT 6.824分布式系统
+https://blog.csdn.net/a940902940902/article/details/79372533
+
+【2】MIT经典课程“分布式系统”视频版上线！网友：终于有非偷拍版本
+https://baijiahao.baidu.com/s?id=1659027488279833080&wfr=spider&for=pc
+
+【3】6.824 Schedule: Spring 2020
+https://pdos.csail.mit.edu/6.824/schedule.html
+
+【4】阅读笔记
+https://blog.microdba.com/archive/?tag=%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0
+
+【5】2020 MIT 6.824 分布式系统课程
+https://blog.csdn.net/jiangshouzhuang/article/details/104528806
+https://pdos.csail.mit.edu/6.824/schedule.html
+
+【6】分布式B站
+https://www.bilibili.com/video/BV1qk4y197bB
+
+【7】2020 存储技术热点与趋势总结
+https://www.infoq.cn/article/Sd1mMoVXodFbhfz3Jq1a
+
+【8】SDS发展小观察：
+https://mp.weixin.qq.com/s/KTRolOi3r00962-Dfh2-ng
+
+【9】使用开源分布式存储系统Alluxio来有效的分离计算与存储
+https://www.infoq.cn/video/jumLKjEBIQJMmZNol08J
+
+【10】MIT 6.824 2020 分布式系统 Lab1 Mapreduce 实验思路和代码分析
+https://blog.csdn.net/u014680339/article/details/105246656?utm_medium=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromMachineLearnPai2-1.edu_weight&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromMachineLearnPai2-1.edu_weight
+
+【11】2020 MIT 6.824 分布式系统课程
+https://blog.csdn.net/jiangshouzhuang/article/details/104528806
+
+【12】MIT-6.824-2020
+https://github.com/zhouchuyi
+https://github.com/zhouchuyi/algorithm-pattern
+
+【13】实现MapReduce
+https://cloud.tencent.com/developer/article/1624112
+
+【14】一步一步完成 MIT-6.824-Lab1
+https://blog.csdn.net/rnguzimlxg/category_9688100.html
+
+<2>
