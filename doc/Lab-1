@@ -45,5 +45,25 @@ https://cloud.tencent.com/developer/article/1624112
 
 【14】一步一步完成 MIT-6.824-Lab1
 https://blog.csdn.net/rnguzimlxg/category_9688100.html
+https://github.com/holdonbush/Mit-6.824-Lab1-MapReduce
 
-<2>
+<2>执行结果
+
+[root@coldstorage main]# ./test-mr.sh
+*** Starting wc test.
+2020/08/21 11:07:40 rpc.Register: method "Done" has 1 input parameters; needs exactly three
+--- wc test: PASS
+*** Starting indexer test.
+2020/08/21 11:07:45 rpc.Register: method "Done" has 1 input parameters; needs exactly three
+--- indexer test: PASS
+*** Starting map parallelism test.
+2020/08/21 11:07:48 rpc.Register: method "Done" has 1 input parameters; needs exactly three
+--- map parallelism test: PASS
+*** Starting reduce parallelism test.
+2020/08/21 11:07:55 rpc.Register: method "Done" has 1 input parameters; needs exactly three
+--- reduce parallelism test: PASS
+*** Starting crash test.
+2020/08/21 11:08:03 rpc.Register: method "Done" has 1 input parameters; needs exactly three
+--- crash test: PASS
+*** PASSED ALL TESTS
+
